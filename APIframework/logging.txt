@@ -1,0 +1,36 @@
+Request method:	POST
+Request URI:	https://restful-booker.herokuapp.com/booking
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstname": "Jim",
+    "lastname": "Brown",
+    "totalprice": 111,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2018-01-01",
+        "checkout": "2019-01-01"
+    },
+    "additionalneeds": "Breakfast"
+}
+HTTP/1.1 418 I'm a teapot
+Content-Length: 12
+Content-Type: text/plain; charset=utf-8
+Date: Fri, 30 May 2025 04:56:28 GMT
+Etag: W/"c-2UDTmC4hdG5PUA+z8oDkrgejuV8"
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=0jsAh2%2F26kjt40N4tymOHr9YqHgmEorBDqVBOld9qr8%3D\u0026sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add\u0026ts=1748580988"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=0jsAh2%2F26kjt40N4tymOHr9YqHgmEorBDqVBOld9qr8%3D&sid=c46efe9b-d3d2-4a0c-8c76-bfafa16c5add&ts=1748580988"
+Server: Heroku
+Via: 1.1 heroku-router
+X-Powered-By: Express
+
+I'm a Teapot
